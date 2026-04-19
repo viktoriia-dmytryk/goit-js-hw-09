@@ -6,5 +6,5 @@ import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                
                 alt="${e}" 
                 />
             </a>
-        </li>`}).join("")}new a(".gallery a",{captions:!0,captionDelay:250,captionsData:"alt",navText:['<svg width="24" height="24"><use href="/img/sprites.svg#icon-lelt-vector"></use></svg>','<svg width="24" height="24"><use href="/img/sprites.svg#icon-right-vector"></use></svg>'],closeText:'<svg width="24" height="24"><use href="/img/sprites.svg#icon-x-vector"></use></svg>'});
+        </li>`}).join("")}new a(".gallery a",{captions:!0,captionDelay:250,captionsData:"alt",navText:['<svg width="24" height="24"><use href="sprites.svg#icon-left-vector"></use></svg>','<svg width="24" height="24"><use href="sprites.svg#icon-right-vector"></use></svg>'],closeText:'<svg width="24" height="24"><use href="sprites.svg#icon-x-vector"></use></svg>'});
 //# sourceMappingURL=1-gallery.js.map
