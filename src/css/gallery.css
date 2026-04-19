@@ -1,0 +1,42 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 24px 15px;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+.gallery-link:hover .gallery-image,
+.gallery-link:focus .gallery-image {
+  transform: scale(1.044);
+}
+.gallery-link:focus {
+  outline: none;
+}
+
+.sl-wrapper {
+  background-color: rgb(46, 47, 66, 0.8);
+}
+.sl-close {
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body .sl-wrapper .sl-counter {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}

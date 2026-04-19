@@ -3,7 +3,7 @@
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .nav-logo {
   display: inline-flex;
@@ -41,4 +41,9 @@
 }
 .nav-link.active::after {
   background: #747bff;
+}
+.nav-logo {
+  position: relative;
+  left: -50%;
+  transform: translateX(50%);
 }
